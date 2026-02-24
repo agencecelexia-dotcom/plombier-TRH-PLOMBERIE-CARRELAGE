@@ -30,11 +30,11 @@ export const shared = {
 // ─── Composants sections ───
 
 export const heroSection = {
-  eyebrow: `Plombier chauffagiste — ${siteConfig.address.city}`,
+  eyebrow: `Plombier carreleur — ${siteConfig.address.city}`,
 };
 
 export const ctaSection = {
-  defaultTitle: "Un projet ? Une urgence ? Contactez-nous maintenant.",
+  defaultTitle: "Un projet ? Une urgence ? Contactez-moi maintenant.",
   defaultSubtitle: "",
   ctaPrimary: shared.cta.appelerMaintenant,
   ctaSecondary: shared.cta.demanderDevis,
@@ -58,7 +58,7 @@ export const urgencyProjectCards = {
   },
   project: {
     title: "Je planifie des travaux",
-    subtitle: "Rénovation, installation, remplacement...",
+    subtitle: "Rénovation, carrelage, installation...",
     cta: shared.cta.demanderDevis,
   },
 };
@@ -82,6 +82,7 @@ export const contactForm = {
     "Urgence / Dépannage",
     "Plomberie générale",
     "Rénovation salle de bain",
+    "Carrelage / Faïence",
     "Chauffage",
     "Chauffe-eau",
     "Autre",
@@ -89,7 +90,7 @@ export const contactForm = {
   rgpd: "J'accepte que mes données soient utilisées pour me recontacter dans le cadre de ma demande. Voir notre politique de confidentialité.",
   success: {
     title: "Demande envoyée !",
-    text: "Nous vous recontactons sous 48h. Pour une urgence, appelez-nous directement.",
+    text: "Je vous recontacte sous 48h. Pour une urgence, appelez-moi directement.",
   },
   error: "Une erreur est survenue. Veuillez réessayer.",
 };
@@ -99,20 +100,20 @@ export const contactForm = {
 export const homepage = {
   hero: {
     title: clientConfig.seo.slogan,
-    subtitle: "Fuite d'eau, WC bouché, panne de chaudière ? Devis gratuit sous 48h.",
+    subtitle: "Fuite d'eau, rénovation salle de bain, pose de carrelage ? Devis gratuit sous 48h.",
     ctaSecondaryLabel: shared.cta.demanderDevis,
-    badges: ["Intervention <2h", "Décennale", "Devis gratuit", `${siteConfig.googleRating}/5`],
+    badges: ["Intervention rapide", "Décennale", "Devis gratuit", `${siteConfig.googleRating}/5`],
   },
   services: {
     title: "Des solutions pour tous vos besoins",
-    subtitle: "De l'urgence au projet de rénovation, notre équipe qualifiée intervient avec professionnalisme.",
+    subtitle: "De l'urgence plomberie à la pose de carrelage, un artisan qualifié à votre service.",
   },
   realisations: {
     title: "Nos réalisations",
-    subtitle: "Découvrez nos derniers chantiers en images.",
+    subtitle: "Découvrez mes derniers chantiers en images.",
   },
   testimonials: {
-    title: "Ce que disent nos clients",
+    title: "Ce que disent mes clients",
     ratingLabel: "avis Google",
   },
 };
@@ -123,30 +124,30 @@ export const depannage = {
   hero: {
     title: `Dépannage plomberie à ${siteConfig.address.city}`,
     subtitle: "Fuite d'eau, WC bouché, dégât des eaux ? Appelez maintenant.",
-    badges: ["Urgence 24h/24", "Intervention <2h", "7j/7"],
+    badges: ["Urgence 7j/7", "Intervention rapide", "Ploemeur & environs"],
   },
   urgences: {
-    title: "Les urgences que nous prenons en charge",
-    subtitle: "Quel que soit votre problème, nous avons la solution.",
+    title: "Les urgences que je prends en charge",
+    subtitle: "Quel que soit votre problème, j'ai la solution.",
     items: [
       { title: "Fuite d'eau", desc: "Fuite sur canalisation, robinet, raccord ou chasse d'eau. Intervention rapide pour limiter les dégâts." },
-      { title: "Dégât des eaux", desc: "Coupure d'eau, assèchement et réparation. Nous vous accompagnons pour le constat d'assurance." },
+      { title: "Dégât des eaux", desc: "Coupure d'eau, assèchement et réparation. Je vous accompagne pour le constat d'assurance." },
       { title: "Canalisation bouchée", desc: "Débouchage WC, évier, douche ou canalisation principale par furet ou haute pression." },
-      { title: "Panne de chaudière", desc: "Diagnostic et réparation de votre chaudière gaz ou pompe à chaleur, même le week-end." },
+      { title: "Panne de chauffe-eau", desc: "Diagnostic et réparation de votre chauffe-eau électrique ou thermodynamique, même le week-end." },
     ],
   },
   etapes: {
     title: "Comment ça marche ?",
     subtitle: "3 étapes simples pour un dépannage sans stress.",
     items: [
-      { title: "Vous appelez", desc: "Décrivez-nous votre problème par téléphone. Nous évaluons l'urgence et vous donnons un tarif indicatif." },
-      { title: "On intervient sous 2h", desc: "Un technicien qualifié se déplace chez vous avec tout le matériel nécessaire." },
+      { title: "Vous appelez", desc: "Décrivez-moi votre problème par téléphone. J'évalue l'urgence et vous donne un tarif indicatif." },
+      { title: "J'interviens rapidement", desc: "Je me déplace chez vous avec tout le matériel nécessaire." },
       { title: "Problème résolu", desc: "Réparation immédiate dans la majorité des cas. Facture claire, pas de mauvaise surprise." },
     ],
   },
   tarifs: {
     title: "Tarifs indicatifs",
-    subtitle: "Transparence totale sur nos prix. Le tarif exact vous est confirmé avant intervention.",
+    subtitle: "Transparence totale sur mes prix. Le tarif exact vous est confirmé avant intervention.",
     items: [
       { service: "Débouchage WC / évier", prix: "À partir de 89 €" },
       { service: "Réparation fuite", prix: "À partir de 120 €" },
@@ -167,8 +168,8 @@ export const plomberie = {
     subtitle: "Robinetterie, tuyauterie, mise aux normes, recherche de fuite... Intervention rapide et travail soigné.",
   },
   services: {
-    title: "Nos services de plomberie",
-    subtitle: "De l'installation neuve à la réparation, nous intervenons sur tous vos équipements.",
+    title: "Mes services de plomberie",
+    subtitle: "De l'installation neuve à la réparation, j'interviens sur tous vos équipements.",
     items: [
       { title: "Robinetterie", desc: "Installation et remplacement de robinets, mitigeurs, douchettes. Toutes marques." },
       { title: "Tuyauterie et raccordements", desc: "Installation, remplacement et réparation de canalisations en cuivre, PER ou multicouche." },
@@ -177,14 +178,14 @@ export const plomberie = {
     ],
   },
   avantages: {
-    title: "Pourquoi nous choisir ?",
+    title: "Pourquoi me choisir ?",
     items: [
       `Plus de ${siteConfig.yearsExperience} ans d'expérience`,
-      "Matériel professionnel dernière génération",
+      "Matériel professionnel",
       "Chantier laissé propre après intervention",
       "Garantie décennale sur tous les travaux",
       "Devis détaillé gratuit sous 48h",
-      "Conseil personnalisé et transparent",
+      "Artisan local — Ploemeur et environs",
     ],
   },
   servicesLies: ["Dépannage plomberie", "Rénovation salle de bain"],
@@ -195,11 +196,11 @@ export const plomberie = {
 export const renovationSdb = {
   hero: {
     title: `Rénovation salle de bain à ${siteConfig.address.city}`,
-    subtitle: "Douche italienne, rénovation complète, adaptation PMR. Un interlocuteur unique du début à la fin.",
+    subtitle: "Plomberie et carrelage intégrés : douche italienne, rénovation complète, adaptation PMR. Un seul interlocuteur.",
   },
   projets: {
-    title: "Nos types de projets",
-    subtitle: "Chaque salle de bain est unique. Nous adaptons nos solutions à vos besoins et votre budget.",
+    title: "Mes types de projets",
+    subtitle: "Chaque salle de bain est unique. J'adapte mes solutions à vos besoins et votre budget.",
     items: [
       { title: "Douche italienne", desc: "Receveur extra-plat, carrelage grand format, paroi vitrée, pommeau pluie. Design et accessibilité." },
       { title: "Rénovation complète", desc: "Démolition, plomberie, carrelage, sanitaires, meuble vasque, éclairage. Un seul interlocuteur." },
@@ -207,20 +208,55 @@ export const renovationSdb = {
     ],
   },
   etapes: {
-    title: "Notre méthode en 4 étapes",
+    title: "Ma méthode en 4 étapes",
     subtitle: "Un accompagnement clé en main pour un résultat à la hauteur de vos attentes.",
     items: [
-      { title: "Visite conseil", desc: "Nous venons chez vous pour écouter vos envies, prendre les mesures et vous conseiller." },
+      { title: "Visite conseil", desc: "Je viens chez vous pour écouter vos envies, prendre les mesures et vous conseiller." },
       { title: "Devis détaillé", desc: "Vous recevez un devis précis sous 48h avec le détail des prestations et matériaux." },
-      { title: "Travaux", desc: "Notre équipe réalise les travaux dans les délais convenus. Chantier propre garanti." },
+      { title: "Travaux", desc: "Je réalise les travaux dans les délais convenus. Chantier propre garanti." },
       { title: "Réception", desc: "Vérification finale ensemble. Vous ne payez le solde qu'à votre entière satisfaction." },
     ],
   },
   realisations: {
-    title: "Nos réalisations salle de bain",
-    subtitle: "Découvrez nos derniers projets de rénovation.",
+    title: "Mes réalisations salle de bain",
+    subtitle: "Découvrez mes derniers projets de rénovation.",
   },
-  servicesLies: ["Plomberie", "Chauffe-eau"],
+  servicesLies: ["Plomberie", "Carrelage", "Chauffe-eau"],
+};
+
+// ─── Page Carrelage ───
+
+export const carrelage = {
+  hero: {
+    title: `Carrelage à ${siteConfig.address.city}`,
+    subtitle: "Pose de carrelage, faïence et mosaïque pour tous vos projets intérieurs et extérieurs.",
+  },
+  services: {
+    title: "Mes prestations carrelage",
+    subtitle: "Des sols aux murs, en intérieur comme en extérieur, je pose tous types de carrelage.",
+    items: [
+      { title: "Carrelage sol intérieur", desc: "Grès cérame, imitation bois ou pierre, grands formats. Séjour, cuisine, entrée, chambre." },
+      { title: "Faïence murale", desc: "Salle de bain, cuisine, crédence. Faïence, carreaux metro, mosaïque, tous styles." },
+      { title: "Carrelage extérieur", desc: "Terrasse, balcon, contour de piscine. Grès cérame antidérapant, pose sur plots ou collée." },
+      { title: "Préparation des supports", desc: "Ragréage, chape, étanchéité sous carrelage (SPEC). Des fondations solides pour un résultat durable." },
+    ],
+  },
+  avantages: {
+    title: "Pourquoi me confier votre carrelage ?",
+    items: [
+      "Pose soignée et finitions impeccables",
+      "Tous formats : du 20x20 au 120x60",
+      "Conseil en choix de matériaux et calepinage",
+      "Préparation des supports incluse",
+      "Carrelage intérieur et extérieur",
+      "Plomberie + carrelage : un seul interlocuteur",
+    ],
+  },
+  realisations: {
+    title: "Mes réalisations carrelage",
+    subtitle: "Découvrez mes derniers chantiers de pose de carrelage.",
+  },
+  servicesLies: ["Salle de bain", "Plomberie"],
 };
 
 // ─── Page Chauffage ───
@@ -228,21 +264,21 @@ export const renovationSdb = {
 export const chauffage = {
   hero: {
     title: `Chauffage à ${siteConfig.address.city}`,
-    subtitle: "Chaudière gaz, pompe à chaleur, plancher chauffant. Certifié RGE pour bénéficier des aides.",
-    badges: ["Certifié RGE", "Entretien annuel", "Éligible aides"],
+    subtitle: "Chaudière gaz, pompe à chaleur, plancher chauffant. Installation, entretien et dépannage.",
+    badges: ["Entretien annuel", "Dépannage", "Devis gratuit"],
   },
   solutions: {
-    title: "Nos solutions de chauffage",
+    title: "Mes solutions de chauffage",
     subtitle: "Installation, remplacement et dépannage de tous types de systèmes de chauffage.",
     items: [
       { title: "Chaudière gaz condensation", desc: "Installation et remplacement de chaudière gaz dernière génération. Jusqu'à 30% d'économies sur votre facture." },
-      { title: "Pompe à chaleur air-eau", desc: "Solution écologique et économique. Éligible aux aides MaPrimeRénov' et CEE. Nous sommes certifiés RGE." },
+      { title: "Pompe à chaleur air-eau", desc: "Solution écologique et économique. Éligible aux aides MaPrimeRénov' et CEE." },
       { title: "Plancher chauffant", desc: "Confort optimal et diffusion homogène de la chaleur. Idéal en rénovation ou construction neuve." },
     ],
   },
   entretien: {
     title: "Entretien annuel chaudière",
-    subtitle: "L'entretien de votre chaudière est obligatoire chaque année. Nous intervenons sur toutes les marques.",
+    subtitle: "L'entretien de votre chaudière est obligatoire chaque année. J'interviens sur toutes les marques.",
     cardTitle: "Ce qui est inclus",
     prix: "À partir de 89 € TTC",
     items: [
@@ -255,8 +291,8 @@ export const chauffage = {
     ],
   },
   rge: {
-    title: "Certifié RGE — Éligible aux aides de l'État",
-    text: "Notre certification RGE (Reconnu Garant de l'Environnement) vous permet de bénéficier des aides financières pour vos travaux de chauffage : MaPrimeRénov', CEE, éco-prêt à taux zéro.",
+    title: "Éligible aux aides de l'État",
+    text: "Selon votre situation, vous pouvez bénéficier des aides financières pour vos travaux de chauffage : MaPrimeRénov', CEE, éco-prêt à taux zéro. Je vous accompagne dans vos démarches.",
   },
   servicesLies: ["Chauffe-eau", "Dépannage plomberie"],
 };
@@ -269,13 +305,13 @@ export const chauffeEau = {
     subtitle: "Électrique, thermodynamique, solaire. Conseil expert pour choisir la solution la plus adaptée à vos besoins.",
   },
   services: {
-    title: "Nos services chauffe-eau",
+    title: "Mes services chauffe-eau",
     subtitle: "Installation, remplacement, entretien et dépannage de tous types de chauffe-eau.",
     items: [
       { title: "Chauffe-eau électrique", desc: "Remplacement et installation de cumulus électrique, toutes capacités (75L à 300L). Intervention rapide en cas de panne." },
       { title: "Ballon thermodynamique", desc: "Jusqu'à 3x moins d'électricité. Éligible aux aides de l'État. Amortissement en 3 à 5 ans." },
       { title: "Détartrage et entretien", desc: "Prolongez la durée de vie de votre chauffe-eau. Le détartrage permet de maintenir les performances optimales." },
-      { title: "Dépannage", desc: "Plus d'eau chaude ? Fuite sur le groupe de sécurité ? Nous intervenons rapidement pour vous dépanner." },
+      { title: "Dépannage", desc: "Plus d'eau chaude ? Fuite sur le groupe de sécurité ? J'interviens rapidement pour vous dépanner." },
     ],
   },
   comparatif: {
@@ -298,12 +334,12 @@ export const chauffeEau = {
 
 export const contact = {
   hero: {
-    title: "Contactez-nous — Devis gratuit sous 48h",
-    subtitle: "Remplissez le formulaire ou appelez-nous directement. Nous répondons à toutes les demandes.",
+    title: "Contactez-moi — Devis gratuit sous 48h",
+    subtitle: "Remplissez le formulaire ou appelez-moi directement. Je réponds à toutes les demandes.",
   },
   formTitle: "Demandez votre devis gratuit",
   coordonnees: {
-    title: "Nos coordonnées",
+    title: "Mes coordonnées",
     labels: {
       telephone: "Téléphone",
       email: "Email",
@@ -323,13 +359,13 @@ export const contact = {
 
 export const avisClients = {
   hero: {
-    title: "Avis clients — Ce qu'ils disent de nous",
+    title: "Avis clients — Ce qu'ils disent de moi",
   },
   ratingIntro: (count: number) => `Basée sur ${count} avis Google`,
   voirGoogle: "Voir tous les avis sur Google",
   cta: {
-    title: "Vous aussi, faites-nous confiance",
-    subtitle: "Demandez votre devis gratuit ou appelez-nous directement.",
+    title: "Vous aussi, faites-moi confiance",
+    subtitle: "Demandez votre devis gratuit ou appelez-moi directement.",
   },
 };
 
@@ -341,16 +377,16 @@ export const aPropos = {
     subtitle: "Professionnalisme, réactivité et transparence au service de votre confort.",
   },
   histoire: {
-    title: "Notre histoire",
+    title: "Mon parcours",
     paragraphs: [
-      `Fondé en ${siteConfig.foundedYear} par ${siteConfig.founder}, ${siteConfig.name} est né d'une passion pour le métier et d'une conviction simple : un plombier doit être fiable, réactif et transparent.`,
-      `Après ${siteConfig.yearsExperience} ans d'expérience et plus de ${siteConfig.interventionsCount} interventions, nous restons fidèles à ces valeurs. Notre équipe de techniciens qualifiés intervient chaque jour dans ${siteConfig.address.city} et ses environs pour des dépannages, installations et rénovations.`,
-      "Certifiés RGE et couverts par une assurance décennale, nous accompagnons nos clients dans tous leurs projets de plomberie et de chauffage, du dépannage urgent à la rénovation complète.",
+      `Fort de ${siteConfig.yearsExperience} ans d'expérience dans le bâtiment, j'ai créé ${siteConfig.name} en ${siteConfig.foundedYear} à ${siteConfig.address.city}. Ma double compétence en plomberie et carrelage me permet de prendre en charge vos projets de A à Z, avec un seul interlocuteur.`,
+      `Artisan installé à Ploemeur, j'interviens dans tout le pays de Lorient : Lorient, Larmor-Plage, Guidel, Quéven, Lanester, Hennebont et leurs environs. Du dépannage urgent à la rénovation complète de salle de bain, je m'engage à fournir un travail soigné et un service réactif.`,
+      "Couvert par une assurance décennale, je vous accompagne dans tous vos projets de plomberie, carrelage et chauffage, avec la garantie d'un travail de qualité.",
     ],
   },
   equipe: {
-    title: "Notre équipe",
-    subtitle: "Des professionnels qualifiés et passionnés à votre service.",
+    title: "Votre artisan",
+    subtitle: "Un professionnel qualifié et passionné à votre service.",
   },
   chiffres: {
     title: "En quelques chiffres",
@@ -362,18 +398,17 @@ export const aPropos = {
     ],
   },
   valeurs: {
-    title: "Nos valeurs",
+    title: "Mes valeurs",
     items: [
-      { title: "Réactivité", desc: `Nous intervenons dans les meilleurs délais. En urgence, comptez moins de ${clientConfig.chiffres.delaiIntervention}.` },
+      { title: "Réactivité", desc: `J'interviens dans les meilleurs délais. En urgence, comptez moins de ${clientConfig.chiffres.delaiIntervention}.` },
       { title: "Transparence", desc: "Devis détaillés, tarifs clairs, pas de mauvaise surprise. Vous savez exactement ce que vous payez." },
-      { title: "Qualité", desc: "Travail soigné, matériaux de qualité, chantier propre. Nous garantissons la qualité de nos prestations." },
+      { title: "Qualité", desc: "Travail soigné, matériaux de qualité, chantier propre. Je garantis la qualité de mes prestations." },
     ],
   },
   certifications: {
     title: "Certifications et assurances",
-    subtitle: "Votre tranquillité d'esprit est notre priorité.",
+    subtitle: "Votre tranquillité d'esprit est ma priorité.",
     items: [
-      { label: "Certification RGE QualiPAC", value: siteConfig.rge },
       { label: "Assurance décennale", value: siteConfig.assuranceDecennale },
       { label: "SIRET", value: siteConfig.siret },
     ],
@@ -384,12 +419,12 @@ export const aPropos = {
 
 export const blog = {
   hero: {
-    title: "Blog — Conseils et astuces plomberie",
-    subtitle: "Retrouvez bientôt nos articles pour vous aider au quotidien.",
+    title: "Blog — Conseils plomberie et carrelage",
+    subtitle: "Retrouvez bientôt mes articles pour vous aider au quotidien.",
   },
   empty: {
     title: "Bientôt disponible",
-    text: "Nous préparons des articles sur l'entretien de votre plomberie, les économies d'énergie, les aides pour la rénovation... Revenez bientôt !",
+    text: "Je prépare des articles sur l'entretien de votre plomberie, le choix du carrelage, les économies d'énergie, les aides pour la rénovation... Revenez bientôt !",
   },
 };
 
@@ -397,14 +432,14 @@ export const blog = {
 
 export const realisationsPage = {
   hero: {
-    title: "Nos réalisations — Avant / Après",
-    subtitle: "Découvrez nos derniers chantiers en images. Chaque projet est réalisé avec soin et professionnalisme.",
+    title: "Mes réalisations — Avant / Après",
+    subtitle: "Découvrez mes derniers chantiers en images. Chaque projet est réalisé avec soin et professionnalisme.",
   },
-  categories: ["Tout", "Salle de bain", "Plomberie", "Chauffage", "Chauffe-eau"],
+  categories: ["Tout", "Salle de bain", "Plomberie", "Carrelage", "Chauffage", "Chauffe-eau"],
   empty: "Aucune réalisation dans cette catégorie pour le moment.",
   cta: {
     title: "Vous avez un projet similaire ?",
-    subtitle: "Contactez-nous pour un devis gratuit et personnalisé.",
+    subtitle: "Contactez-moi pour un devis gratuit et personnalisé.",
   },
 };
 

@@ -3,13 +3,14 @@ import { siteConfig } from "@/config/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = siteConfig.url;
-  const lastModified = new Date("2026-02-20");
+  const lastModified = new Date("2026-02-24");
 
   return [
     { url: baseUrl, lastModified, changeFrequency: "weekly", priority: 1 },
     { url: `${baseUrl}/depannage-plomberie`, lastModified, changeFrequency: "monthly", priority: 0.9 },
     { url: `${baseUrl}/plomberie`, lastModified, changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/renovation-salle-de-bain`, lastModified, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/carrelage`, lastModified, changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/chauffage`, lastModified, changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/chauffe-eau`, lastModified, changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/realisations`, lastModified, changeFrequency: "weekly", priority: 0.7 },

@@ -14,7 +14,7 @@ import { aPropos } from "@/config/content";
 
 export const metadata: Metadata = generatePageMetadata({
   title: `À propos — ${siteConfig.name}`,
-  description: `Découvrez ${siteConfig.name}, votre plombier de confiance à ${siteConfig.address.city} depuis ${siteConfig.yearsExperience} ans. Certifié RGE, assuré décennale.`,
+  description: `Découvrez ${siteConfig.name}, votre plombier carreleur de confiance à ${siteConfig.address.city}. ${siteConfig.yearsExperience} ans d'expérience, assuré décennale.`,
   path: "/a-propos",
 });
 

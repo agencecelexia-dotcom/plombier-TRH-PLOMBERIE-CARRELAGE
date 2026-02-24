@@ -21,8 +21,8 @@ import { heroImages } from "@/config/images";
 import { homepage, shared } from "@/config/content";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: `Plombier à ${siteConfig.address.city} | Dépannage 7j/7 — Devis Gratuit`,
-  description: `${siteConfig.name}, votre plombier à ${siteConfig.address.city}. Dépannage 7j/7, rénovation salle de bain, chauffage. Certifié RGE. Devis gratuit.`,
+  title: `Plombier Carreleur à ${siteConfig.address.city} | Dépannage 7j/7 — Devis Gratuit`,
+  description: `${siteConfig.name}, votre plombier carreleur à ${siteConfig.address.city}. Dépannage 7j/7, rénovation salle de bain, pose carrelage, chauffage. Devis gratuit.`,
   path: "/",
 });
 

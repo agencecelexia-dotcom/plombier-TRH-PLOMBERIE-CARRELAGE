@@ -29,6 +29,7 @@ const etapeIcons = [ClipboardList, PaintBucket, HardHat, PartyPopper];
 
 const serviceLiesLinks: Record<string, string> = {
   "Plomberie": "/plomberie",
+  "Carrelage": "/carrelage",
   "Chauffe-eau": "/chauffe-eau",
 };
 

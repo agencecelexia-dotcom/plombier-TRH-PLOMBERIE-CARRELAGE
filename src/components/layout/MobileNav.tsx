@@ -55,15 +55,15 @@ export function MobileNav({ open, onClose }: MobileNavProps) {
                       width="28"
                       height="28"
                       rx="8"
-                      fill="oklch(0.22 0.08 245)"
+                      fill="oklch(0.22 0.08 210)"
                       opacity="0.12"
                     />
                     <path
                       d="M18 9c-1.5 0-2.5 1-2.5 2.5v5c0 1 0.5 1.8 1.3 2.2l-3.3 5.8a1.5 1.5 0 002.6 1.5l3.4-6h1l3.4 6a1.5 1.5 0 002.6-1.5l-3.3-5.8c.8-.4 1.3-1.2 1.3-2.2v-5C24.5 10 23.5 9 22 9h-4z"
-                      fill="oklch(0.22 0.08 245)"
+                      fill="oklch(0.22 0.08 210)"
                     />
-                    <circle cx="18" cy="11.5" r="1.5" fill="oklch(0.64 0.18 44)" />
-                    <circle cx="22" cy="11.5" r="1.5" fill="oklch(0.64 0.18 44)" />
+                    <circle cx="18" cy="11.5" r="1.5" fill="oklch(0.64 0.18 30)" />
+                    <circle cx="22" cy="11.5" r="1.5" fill="oklch(0.64 0.18 30)" />
                   </svg>
                 </div>
                 <div>
